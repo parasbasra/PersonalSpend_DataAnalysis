@@ -33,10 +33,10 @@ where date like '%/23%'
 Select  date, count(narration) as Transactions,  count(deposit) as DepositCount , count(withdrawal) as WithdrawalCount , 
 isnull(sum(deposit),'0') as Sumofdeposit ,isnull(sum(withdrawal),'0') as Sumofwithdrawal 
 from spendanalysis 
-where narration like '%anmoldeep%'
+where narration like '%_name_of_person%' -- most frequent person from the data can be observed from excel data
 group by date
 
---Money spent on shopping , rent , online food , self transfers
+--checking data for how many transaction counts are more than 10000
 
 select date , narration , Withdrawal  from SpendAnalysis
 where Withdrawal > 10000
@@ -51,6 +51,6 @@ order by Withdrawal desc
 --money earned from job
 
 select  deposit from SpendAnalysis
-where  Narration like '%amazondevelcenti%' 
+where  Narration like '%amazondevelcenti%' -- as it is the employer name in the narration id, can be observed from excel data
 
 
