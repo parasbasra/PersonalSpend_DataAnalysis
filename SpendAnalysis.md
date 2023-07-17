@@ -1,4 +1,4 @@
-Personal Spend Analysis
+# Personal Spend Analysis
 
 In this Project i have collated the data of my past 4 years bank transactions, i tried to find as many insights from the data as possible.
 However, it was easy to understand the data as i was the only one who was tracking this data from all these years but it can still lead to some trends or hidden costs which might lead to a better spend structure or just a personal feedback.
