@@ -54,6 +54,8 @@ After exploring the data , the output of the mentioned insights from the sql fil
 ## 6. Share
 After making all the required insights , it was time to visualise the findings for a better picture. This was achieved through Tableau.
 Here is the link for public tableau: https://public.tableau.com/views/PersonalSpendAnalysis_16894512804850/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
+![TableauPic](https://github.com/parasbasra/TableauProject1/assets/139273691/066a8663-fe69-49e2-a849-9f6b4561e78c)
+
 
 ## 7. Act
 All the questions asked in the ASK phase have been answered and shared. Now i can conlude the following obervations from this whole project:
