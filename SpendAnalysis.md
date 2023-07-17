@@ -28,6 +28,6 @@ Filters and sorting functions helped a lot to remove any 'blanks' and null value
 ## Data Exploration
 Here MySQL was used to perform many commands on a record of around 1500+ rows.
 ### Quick link
-
+SpendAnalysis.sql
 
 ![UPI_transaction](https://github.com/parasbasra/TableauProject1/assets/139273691/a79aa09f-4ded-4d51-8032-2a673f8c5956)
